@@ -1,0 +1,1 @@
+This repository demonstrates a common source of undefined behavior (UB) in Rust: modifying a vector while holding a reference to one of its elements. The `bug.rs` file contains the erroneous code, leading to unpredictable program behavior.  The `bugSolution.rs` file offers a corrected version, illustrating safe and efficient alternatives.
